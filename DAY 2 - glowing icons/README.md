@@ -35,7 +35,8 @@ To view the animation, simply open the `index.html` file in a modern web browser
 
 This project utilizes the Font Awesome library for the icons, which is a popular choice for web developers looking to incorporate icons into their projects.
 
-![](/image.png)
+![Glowing Icons](image.png)
+
 
 
 ---
