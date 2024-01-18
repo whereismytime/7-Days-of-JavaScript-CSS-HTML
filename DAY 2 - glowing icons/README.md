@@ -1,4 +1,4 @@
-# CSS Glowing Icons
+# Day 1 - CSS Glowing Icons
 
 This project demonstrates the use of advanced CSS techniques to create glowing icons with animation effects. It showcases the potential of CSS3 animations and the use of the Font Awesome library to enhance user interface elements.
 
