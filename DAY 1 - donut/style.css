@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+}
+
+.donut-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 10px;
+    line-height: 0.8em; /* Может потребоваться настроить для корректного отображения */
+}
