@@ -1,0 +1,72 @@
+1. Code:
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+Explanation:
+This is a CSS reset block, which sets the margin and padding of all elements to 0 to avoid default browser styling inconsistencies.
+
+2. Code:
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #18191f;
+}
+
+Explanation:
+Sets the body of the document to take up the full viewport height and width, with a background color of #18191f, which is a dark shade.
+
+3. Code:
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+Explanation:
+Defines a flex container that centers its children both horizontally and vertically, taking up the full viewport height and width.
+
+4. Code:
+
+#apple, #twitter, #github, #facebook{
+    font-size: 8em;
+    /* other styles */
+}
+
+Explanation:
+Applies a large font size to the icons and includes additional styles like background color, shadow, and animation.
+
+5. Code:
+
+@keyframes animate{
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+
+Explanation:
+Defines an animation that applies a hue rotation filter over 3 seconds, creating a color cycle effect on the icons.
+
+6. Code:
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+Explanation:
+Includes the Font Awesome library from a CDN, which provides the icon fonts used in the class definitions.
+
+7. Code:
+
+<i class="fa fa-apple" id="apple"></i>
+
+Explanation:
+An HTML element using Font Awesome to display an Apple icon.
+
