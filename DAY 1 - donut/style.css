@@ -19,5 +19,5 @@ html, body {
 pre {
     font-family: monospace;
     font-size: 10px;
-    line-height: 0.8em; /* Может потребоваться настроить для корректного отображения */
+    line-height: 0.8em; 
 }
