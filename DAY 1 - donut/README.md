@@ -20,6 +20,6 @@ This project is the first in the "20 Days of JavaScript, CSS, HTML" series. It s
 To run the animation on your local machine, simply clone this repository, navigate to the 'DAY 1 - donut' directory, and open the `index.html` file in a modern web browser. The ASCII donut should start spinning right away.
 
 ## 
-![Glowing Icons](image.png)
+![Donut Animation](image.png)
 
 Feel free to fork this project, play around with the code, and maybe even create your own ASCII animations. Enjoy the art of coding!
