@@ -8,5 +8,6 @@ This repository is a collection of small projects developed over a 20-day coding
 ### DAY 2 - Glowing Icons
 ### DAY 3 - Crypto Price
 ### DAY 4 - Scroll Progress
+### DAY 5 - Modern Card Slider
 
 For more details on each project and the concepts it covers, please refer to the individual project directories in this repository.
