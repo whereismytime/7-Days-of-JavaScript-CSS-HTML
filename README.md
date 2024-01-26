@@ -4,11 +4,12 @@ This repository is a collection of small projects developed over a 20-day coding
 
 ## Projects
 
-### DAY 1 - Donut
-### DAY 2 - Glowing Icons
-### DAY 3 - Crypto Price
-### DAY 4 - Scroll Progress
-### DAY 5 - Modern Card Slider
-### DAY 6 - Tic Tac Toe Game
+- [DAY 1 - Donut](DAY%201%20-%20donut/)
+- [DAY 2 - Glowing Icons](DAY%202%20-%20glowing%20icons/)
+- [DAY 3 - Crypto Price](DAY%203%20-%20Crypto%20Price/)
+- [DAY 4 - Scroll Progress](DAY%204%20-%20Scroll%20Progress/)
+- [DAY 5 - Modern Card Slider](DAY%205%20-%20Modern%20Card%20Slider/)
+- [DAY 6 - Tic Tac Toe Game](DAY%206%20-%20Tic%20Tac%20Toe%20Game/)
+
 
 For more details on each project and the concepts it covers, please refer to the individual project directories in this repository.
