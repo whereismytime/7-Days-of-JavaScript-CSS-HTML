@@ -28,7 +28,7 @@ To start playing the game, open the `index.html` file in any modern web browser.
 
 ## Screenshot
 
-![Tic Tac Toe Game Interface](screenshot.png)
+![Tic Tac Toe Game Interface](photo.png)
 
 ---
 
