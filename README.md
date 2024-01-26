@@ -9,6 +9,6 @@ This repository is a collection of small projects developed over a 20-day coding
 ### DAY 3 - Crypto Price
 ### DAY 4 - Scroll Progress
 ### DAY 5 - Modern Card Slider
-### DAY 6 - XO simple game
+### DAY 6 - Tic Tac Toe Game
 
 For more details on each project and the concepts it covers, please refer to the individual project directories in this repository.
