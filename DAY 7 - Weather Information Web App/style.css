@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin-bottom: 30px;
+    
+}
+.main{
+    width: 600px;
+    margin: 100px auto;
+    padding: 15px;
+
+}
+
+
+.header{
+    border: 2px solid rgb(128, 128, 128);
+    padding: 15px;
+
+}
+
+.input{
+    width: 330px;
+    padding: 10px;
+    margin-right: 2%;
+}
+
+.btn{
+    cursor: pointer;
+    width: 180px;
+    border: none;
+    background-color: rgb(73, 73, 255);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 35px;
+    padding: 10px;
+
+}
+
+.card-city{
+    text-align: center;
+    color: rgb(81, 81, 255);
+    font-size: 35px;
+
+}
+
+.card-value{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.card-weather{
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.img-w{
+    width: 150px;
+    margin: auto;
+}
+
+
+
+.card{
+    padding: 15px;
+    border: 2px solid rgb(128, 128, 128);
+    margin-top: 20px;
+
+}
+
+.description{
+    font-size: 24px;
+}
