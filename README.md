@@ -10,6 +10,7 @@ This repository is a collection of small projects developed over a 20-day coding
 - [DAY 4 - Scroll Progress](DAY%204%20-%20Scroll%20Progress/)
 - [DAY 5 - Modern Card Slider](DAY%205%20-%20Modern%20Card%20Slider/)
 - [DAY 6 - Tic Tac Toe Game](DAY%206%20-%20Tic%20Tac%20Toe%20Game/)
+- [DAY 7 - Weather Information Web App](DAY%207%20-%20Weather%20Information%20Web%20App/)
 
 
 For more details on each project and the concepts it covers, please refer to the individual project directories in this repository.
