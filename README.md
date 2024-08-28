@@ -1,6 +1,6 @@
-# 20-Days-of-JavaScript-CSS-HTML
+# 7-Days-of-JavaScript-CSS-HTML
 
-This repository is a collection of small projects developed over a 20-day coding challenge. Each project focuses on different aspects of JavaScript to demonstrate various features and capabilities of the language. Below is a list of the projects included in this challenge, along with a brief description of each.
+This repository is a collection of small projects developed over a 7-day coding challenge. Each project focuses on different aspects of JavaScript to demonstrate various features and capabilities of the language. Below is a list of the projects included in this challenge, along with a brief description of each.
 
 ## Projects
 
