@@ -1,80 +1,110 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 
-h1{
-    margin-bottom: 30px;
-    
-}
-.main{
-    width: 600px;
-    margin: 100px auto;
-    padding: 15px;
-
-}
-
-
-.header{
-    border: 2px solid rgb(128, 128, 128);
-    padding: 15px;
-
+body {
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #fff;
 }
 
-.input{
-    width: 330px;
-    padding: 10px;
-    margin-right: 2%;
+.app-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 
-.btn{
-    cursor: pointer;
-    width: 180px;
-    border: none;
-    background-color: rgb(73, 73, 255);
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    height: 35px;
-    padding: 10px;
-
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #00ffff;
 }
 
-.card-city{
-    text-align: center;
-    color: rgb(81, 81, 255);
-    font-size: 35px;
-
+.weather-form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
-.card-value{
-    font-size: 30px;
-    font-weight: bold;
-
+.input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
 }
 
-.card-weather{
-    display: flex;
-    padding-top: 20px;
-
+.btn {
+  padding: 10px 20px;
+  background-color: #00ffff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.img-w{
-    width: 150px;
-    margin: auto;
+.btn:hover {
+  background-color: #00cfcf;
 }
 
-
-
-.card{
-    padding: 15px;
-    border: 2px solid rgb(128, 128, 128);
-    margin-top: 20px;
-
+.card {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid #00ffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  text-align: left;
+  animation: fadeIn 0.3s ease-in-out;
 }
 
-.description{
-    font-size: 24px;
+.card-city {
+  font-size: 1.8rem;
+  color: #00ffff;
+}
+
+.card-weather {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.card-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.img-w {
+  width: 80px;
+  margin-left: auto;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

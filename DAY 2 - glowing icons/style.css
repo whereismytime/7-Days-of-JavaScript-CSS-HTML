@@ -1,59 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
+/* CSS Reset / Скидання стилів браузера */
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    background: #18191f;
+/* Fullscreen dark background / Темний фон на весь екран */
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #18191f;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
+/* Centered flex container / Центрування іконок по центру */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
+/* Base icon styles / Базові стилі для іконок */
 #apple,
 #twitter,
 #github,
-#facebook{
-    font-size: 8em;
-    background-color: #18191f;
-    color: #fff;
-    box-shadow: 2px 2px #00000080, 10px 1px 12px #00000080,
-    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
-    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
-    inset 2px 2px 10px #00000080;
-    border-radius: 29px;
-    padding: 11px 19px;
-    margin: 0 40px;
-    animation: animate 3s linear infinite;
-    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
-    0 0 200px #0072ff;
+#facebook {
+  font-size: 8em;
+  background-color: #18191f;
+  color: #fff;
+  padding: 11px 19px;
+  margin: 0 40px;
+  border-radius: 29px;
+  animation: animate 3s linear infinite;
+  box-shadow: 2px 2px #00000080, 10px 1px 12px #00000080, 2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
+  transition: transform 0.2s ease;
 }
 
-#twitter{
-    animation-delay: 0.3s;
+/* Hover effect / Ефект при наведенні */
+#apple:hover,
+#twitter:hover,
+#github:hover,
+#facebook:hover {
+  transform: scale(1.1);
 }
 
-#facebook{
-    animation-delay: 0.7s;
+/* Individual delays and colors / Індивідуальні кольори та затримки */
+#twitter {
+  animation-delay: 0.3s;
+  text-shadow: 0 0 50px #1da1f2, 0 0 100px #1da1f2;
 }
 
-#github{
-    animation-delay: 0.1s;
+#facebook {
+  animation-delay: 0.7s;
+  text-shadow: 0 0 50px #3b5998, 0 0 100px #3b5998;
 }
 
-@keyframes animate{
-    from{
-        filter: hue-rotate(0deg);
-    }
-    to{
-        filter: hue-rotate(360deg);
-    }
+#github {
+  animation-delay: 0.1s;
+  text-shadow: 0 0 50px #f0f0f0, 0 0 100px #f0f0f0;
 }
 
+#apple {
+  animation-delay: 0.5s;
+  text-shadow: 0 0 50px #e1306c, 0 0 100px #e1306c;
+}
+
+/* Glowing animation / Анімація світіння */
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}

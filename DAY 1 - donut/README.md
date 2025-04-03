@@ -1,25 +1,30 @@
-# Day 1 - ASCII Donut Animation
+# Day 1 – ASCII Donut Animation
 
-This project is the first in the "20 Days of JavaScript, CSS, HTML" series. It showcases an ASCII art animation of a spinning donut, using JavaScript to manipulate text characters dynamically. The animation illustrates the possibilities of mathematical modeling in creating visual effects with simple character codes.
+This project is part of the **"7 Days of JavaScript, CSS, HTML"** challenge. It showcases an ASCII animation of a rotating donut using JavaScript math and text rendering.
 
-## Features
+## 🚀 Features
 
-- **ASCII Animation**: Displays a rotating donut animation made entirely of ASCII characters, offering a retro feel with a modern twist.
-- **JavaScript Calculations**: Uses JavaScript to perform the mathematical calculations necessary for simulating the 3D rotation of the donut.
-- **Styling with CSS**: Applies basic styles to position the ASCII art within the web page, ensuring optimal visibility and a clean background.
+- **ASCII Animation** – Spinning donut rendered in characters.
+- **3D Math** – Simulates 3D with math.
+- **Frame-based update** – Smooth rotation.
 
-## Project Structure
+## 📂 Files
 
-- `index.html`: The main HTML document that sets up the structure for the ASCII donut to be displayed.
-- `style.css`: The stylesheet that contains the styling rules for the ASCII donut, including its positioning and appearance.
-- `index.js`: The JavaScript file that contains the logic to calculate and render the ASCII donut animation.
-- `README.md`: The file that you're reading right now, which provides an overview of the project and how it works.
+- `index.html` – Page structure  
+- `style.css` – Styling  
+- `script.js` – Logic  
+- `image.png` – Project preview
 
-## Running the Project
+## ⚙️ How to Run
 
-To run the animation on your local machine, simply clone this repository, navigate to the 'DAY 1 - donut' directory, and open the `index.html` file in a modern web browser. The ASCII donut should start spinning right away.
+1. Clone/download the project  
+2. Navigate to `DAY 1 - donut`  
+3. Open `index.html` in your browser  
 
-## 
-![Donut Animation](image.png)
+## 🔗 Live Preview
 
-Feel free to fork this project, play around with the code, and maybe even create your own ASCII animations. Enjoy the art of coding!
+[GitHub Pages – Day 1](https://whereismytime.github.io/7-Days-of-JavaScript-CSS-HTML/DAY%201%20-%20donut/)
+
+## 📸 Preview
+
+![Preview](image.png)

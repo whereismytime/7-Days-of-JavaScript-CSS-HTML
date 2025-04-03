@@ -1,16 +1,32 @@
-# 7-Days-of-JavaScript-CSS-HTML
+# Day 7 – Weather Information Web App
 
-This repository is a collection of small projects developed over a 7-day coding challenge. Each project focuses on different aspects of JavaScript to demonstrate various features and capabilities of the language. Below is a list of the projects included in this challenge, along with a brief description of each.
+A simple weather application that displays the current weather of a city. It fetches real-time weather data using the WeatherAPI and updates the interface dynamically based on user input.
 
-## Projects
+## 🚀 Features
 
-- [DAY 1 - Donut](DAY%201%20-%20donut/)
-- [DAY 2 - Glowing Icons](DAY%202%20-%20glowing%20icons/)
-- [DAY 3 - Crypto Price](DAY%203%20-%20Crypto%20Price/)
-- [DAY 4 - Scroll Progress](DAY%204%20-%20Scroll%20Progress/)
-- [DAY 5 - Modern Card Slider](DAY%205%20-%20Modern%20Card%20Slider/)
-- [DAY 6 - Tic Tac Toe Game](DAY%206%20-%20Tic%20Tac%20Toe%20Game/)
-- [DAY 7 - Weather Information Web App](DAY%207%20-%20Weather%20Information%20Web%20App/)
+- **Weather API** – Fetches live temperature, condition, and location data
+- **City Search** – Enter a city name and get instant weather info
+- **Dynamic UI** – Updates the view based on results or error state
 
+## 📂 Files
 
-For more details on each project and the concepts it covers, please refer to the individual project directories in this repository.
+- `index.html` – Page structure  
+- `style.css` – Styling and layout  
+- `script.js` – Logic and API integration  
+- `pogoda.png` – Weather icon used in the result card  
+- `photo.png` – (Optional) Preview image for GitHub  
+- `screen.png` – (Recommended) GitHub project thumbnail
+
+## ⚙️ How to Run
+
+1. Clone or download the repository  
+2. Navigate to `DAY 7 - Weather Information Web App`  
+3. Open `index.html` in a browser
+
+## 🔗 Live Preview
+
+[GitHub Pages – Day 7](https://whereismytime.github.io/7-Days-of-JavaScript-CSS-HTML/DAY%207%20-%20Weather%20Information%20Web%20App/)
+
+## 📸 Preview
+
+![Preview](screen.png)

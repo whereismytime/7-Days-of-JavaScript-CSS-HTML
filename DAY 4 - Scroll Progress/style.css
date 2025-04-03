@@ -1,0 +1,84 @@
+:root {
+  --header-height: 60px;
+}
+
+/* 🧹 Reset and base styling | Скидання стилів і базові налаштування */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  color: #ddd;
+  padding-top: var(--header-height);
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+
+/* 🧭 Fixed Header | Фіксована шапка */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #111;
+  border-top: 4px solid #333;
+  z-index: 1000;
+}
+
+/* 📈 Scroll progress bar | Прогрес-бар прокрутки */
+#progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background: #00ffff;
+}
+
+/* 🔗 Navigation menu | Меню навігації */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #aaa;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a.active {
+  color: #00ffff;
+  border-color: #00ffff;
+}
+
+/* 📄 Sections | Секції контенту */
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 120px 20px; /* Makes section centered on scroll | Центрує секцію при переході */
+  scroll-margin-top: 100px;
+  min-height: 100vh;
+}
+
+section h2 {
+  color: #fff;
+  margin-top: 0;
+}
+
+section p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
