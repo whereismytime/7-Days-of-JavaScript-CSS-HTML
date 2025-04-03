@@ -25,7 +25,7 @@ A simple weather application that displays the current weather of a city. It fet
 
 ## 🔗 Live Preview
 
-[GitHub Pages – Day 7](https://whereismytime.github.io/7-Days-of-JavaScript-CSS-HTML/DAY%207%20-%20Weather%20Information%20Web%20App/)
+[GitHub Pages – Day 7](https://whereismytime.github.io/7-Days-of-JavaScript-CSS-HTML/)
 
 ## 📸 Preview
 
