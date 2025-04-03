@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0A0F0D;
+  font-family: 'Poppins', sans-serif;
+}
+
+.coin {
+  display: flex;
+  width: 500px;
+  height: 90px;
+  border-radius: 12px;
+  margin: 25px 0;
+  background: #1A1A2E;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.coin:hover {
+  transform: translateY(-5px);
+}
+
+.coin .coin-logo {
+  width: 90px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: #FFFFFF;
+  border-radius: 12px 0 0 12px;
+}
+
+.coin .coin-logo img {
+  width: 50%;
+  height: 50%;
+}
+
+.coin .coin-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 16px;
+}
+
+.coin .coin-name h3 {
+  color: #EAEAEA;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-right: 6px;
+}
+
+.coin .coin-name span {
+  color: #7B7F82;
+  font-size: 16px;
+}
+
+.coin .coin-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+  padding: 12px 24px;
+}
+
+.coin .coin-price .price {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 4px;
+}
+
+.coin .coin-price .change {
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 2px 8px;
+}
+
+.coin.rising .coin-price .change {
+  background: #14532D;
+  color: #4CAF50;
+}
+
+.coin.falling .coin-price .change {
+  background: #571C1C;
+  color: #E53935;
+}
